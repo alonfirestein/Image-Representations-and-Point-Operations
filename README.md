@@ -25,7 +25,8 @@
 The idea is to make the distribution of the intensities of the image(the colours of each pixel ranging from 0 to 255) more balanced.
 
 To do that, first we create a histogram of the intensities, then compute the CDF(cumulative distribution function) of the distribution. 
-The main idea is to straighten out the CDF of the given picture and making it linear by mapping a given intensity i to another intensity j such that: CDF(j)= j/255 from all pixels in the picture.  
+The main idea is to straighten out the CDF of the given picture and making it linear by mapping a given intensity i to  
+another intensity j such that: CDF(j)= j/255 from all pixels in the picture.  
   
   
 ##### Histogram equalization For Grayscale Image:
