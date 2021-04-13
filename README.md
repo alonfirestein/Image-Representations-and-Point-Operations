@@ -21,6 +21,13 @@
 ![Figure_1](https://user-images.githubusercontent.com/57404551/114478347-b2e4ad80-9c06-11eb-98a3-7c162e79de01.png)
   
   
+## Histogram Equalization:  
+The idea is to make the distribution of the intensities of the image(the colours of each pixel ranging from 0 to 255) more balanced.
+
+To do that, first we create a histogram of the intensities, then compute the CDF(cumulative distribution function) of the distribution. 
+The main idea is to straighten out the CDF of the given picture and making it linear by mapping a given intensity i to another intensity j such that: CDF(j)= j/255 from all pixels in the picture.  
+  
+  
 ##### Histogram equalization For Grayscale Image:
   
 ![Figure_2](https://user-images.githubusercontent.com/57404551/114478423-dd366b00-9c06-11eb-81ef-676292d952f5.png)
@@ -38,7 +45,11 @@
 ![Figure_6](https://user-images.githubusercontent.com/57404551/114478532-1ec71600-9c07-11eb-9fef-0d2378d43d1a.png)
 
 ##### Displaying the cumsum: (Red is the original images cumsum, Green is the equalized images cumsum)  
-![Figure_5](https://user-images.githubusercontent.com/57404551/114478616-52a23b80-9c07-11eb-8c41-8abc06bae0e6.png)
+![Figure_5](https://user-images.githubusercontent.com/57404551/114478616-52a23b80-9c07-11eb-8c41-8abc06bae0e6.png)  
+
+## Optimal Quantization:  
+Quantization, involved in image processing, is a lossy compression technique achieved by compressing a range of values to a single quantum value. When the number of discrete symbols in a given stream is reduced, the stream becomes more compressible.  
+Color quantization reduces the number of colors used in an image; this is important for displaying images on devices that support a limited number of colors and for efficiently compressing certain kinds of images.  
 
 ##### Quantized Grayscale Image:  
 ![Figure_9](https://user-images.githubusercontent.com/57404551/114478864-e96ef800-9c07-11eb-9104-755ad33b5c73.png)
@@ -53,7 +64,8 @@
 ![Figure_12](https://user-images.githubusercontent.com/57404551/114479006-34890b00-9c08-11eb-8951-d0f11026bd94.png)
 
 
-#### Gamma Correction: (Showing 3 different gamma values to show the difference)
+#### Gamma Correction: (Showing 3 different gamma values to show the difference)  
+Gamma correction or gamma is a nonlinear operation used to encode and decode luminance or tristimulus values in video or still image systems.
 ![Screen Shot 2021-04-12 at 20 31 16](https://user-images.githubusercontent.com/57404551/114479277-e6283c00-9c08-11eb-985e-2828a5b20cad.png)  
   
     
