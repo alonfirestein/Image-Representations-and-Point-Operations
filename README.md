@@ -68,6 +68,8 @@ Color quantization reduces the number of colors used in an image; this is import
 ## Gamma Correction:  
 Gamma correction or gamma is a nonlinear operation used to encode and decode luminance or tristimulus values in video or still image systems.  
 (Showing 3 different gamma values to show the difference)  
+  
+    
 ![Screen Shot 2021-04-12 at 20 31 16](https://user-images.githubusercontent.com/57404551/114479277-e6283c00-9c08-11eb-985e-2828a5b20cad.png)  
   
     
