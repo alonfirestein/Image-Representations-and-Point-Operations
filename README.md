@@ -25,8 +25,8 @@
 The idea is to make the distribution of the intensities of the image(the colours of each pixel ranging from 0 to 255) more balanced.
 
 To do that, first we create a histogram of the intensities, then compute the CDF(cumulative distribution function) of the distribution. 
-The main idea is to straighten out the CDF of the given picture and making it linear by mapping a given intensity i to  
-another intensity j such that: CDF(j)= j/255 from all pixels in the picture.  
+The main idea is to straighten out the CDF of the given picture and making it linear by mapping a given intensity i to another intensity j  
+such that: CDF(j)= j/255 from all pixels in the picture.  
   
   
 ##### Histogram equalization For Grayscale Image:
@@ -65,8 +65,9 @@ Color quantization reduces the number of colors used in an image; this is import
 ![Figure_12](https://user-images.githubusercontent.com/57404551/114479006-34890b00-9c08-11eb-8951-d0f11026bd94.png)
 
 
-#### Gamma Correction: (Showing 3 different gamma values to show the difference)  
-Gamma correction or gamma is a nonlinear operation used to encode and decode luminance or tristimulus values in video or still image systems.
+## Gamma Correction:  
+Gamma correction or gamma is a nonlinear operation used to encode and decode luminance or tristimulus values in video or still image systems.  
+(Showing 3 different gamma values to show the difference)  
 ![Screen Shot 2021-04-12 at 20 31 16](https://user-images.githubusercontent.com/57404551/114479277-e6283c00-9c08-11eb-985e-2828a5b20cad.png)  
   
     
