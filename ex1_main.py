@@ -46,7 +46,6 @@ def quantDemo(img_path: str, rep: int):
 
 
 def main():
-    print("ID:", myID())
     img_path = 'beach.jpg'
 
     # Basic read and display
